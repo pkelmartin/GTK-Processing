@@ -272,6 +272,8 @@ for (dirpath, dirnames, filenames) in walk(full_path):
 
                         force_end_row = df2.iloc[k]
 
+                        print('git hub test')
+
                         time_difference = adc_end_row['rtc ET[s]']-force_end_row['time']
 
                         new_time_list = []
